@@ -1,7 +1,16 @@
-body{
-    background: red;
+// index.scss est de rassembler tous les fichiers SASS.
+@import "./settings";
+@import "./layout/navbar";
+@import  "./layout/header";
+@import "./layout/section1";
+@import "./layout/_footer.scss";
 
-            &:hover {
-                background: blue;
-            }
-}
+
+
+
+
+
+
+
+
+

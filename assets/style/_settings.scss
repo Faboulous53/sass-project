@@ -1,0 +1,24 @@
+//Settings regroupe touys les réglages généraux.
+
+@font-face {
+    font-family: 'font1';
+    src: url(../fonts/GochiHand-Regular.ttf);
+}
+
+$font1: 'font1', sans-serif;
+$color1: rgb(164, 18, 43);
+$color2: rgba(255, 166, 0, 0.548);
+$color3: black;
+
+//MIXINS
+
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background: $color2;
+    
+}
